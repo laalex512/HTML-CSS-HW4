@@ -78,6 +78,7 @@ header {
 .content__wrapper {
     margin-bottom: 163px;
     display: flex;
+    gap: 41px;
 }
 
 .content__title {
@@ -97,6 +98,7 @@ header {
 .content__link_orange {
     padding: 15px 36px 16px 35px;
     margin-right: 72px;
+    color: #FFF;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
