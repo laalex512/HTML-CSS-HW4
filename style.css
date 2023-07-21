@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gilroy Bold;
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('fonts/Gilroy-Medium.eot');
+    src: url('fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Medium.woff') format('woff'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('fonts/Gilroy-Bold.eot');
+    src: url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Semibold';
+    src: url('fonts/Gilroy-SemiBold.eot');
+    src: url('fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('fonts/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 84px;
+}
+
+.header__logo {
+    display: flex;
+    gap: 14px;
+    margin-right: 500px;
+}
+
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__link {
+    font-family: Gilroy Medium;
+    font-size: 14px;
+}
+
+.header__link:first-of-type {
+    color: #F25822;
+    font-family: Gilroy SemiBold;
+}
+
+.content__wrapper {
+    margin-bottom: 163px;
+    display: flex;
+}
+
+.content__title {
+    width: 522px;
+    margin-bottom: 17px;
+    font-size: 60px;
+}
+
+.content__text {
+    width: 466px;
+    margin-bottom: 37px;
+    color: #888;
+    font-family: Gilroy Medium;
+    font-size: 20px;
+}
+
+.content__link_orange {
+    padding: 15px 36px 16px 35px;
+    margin-right: 72px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.content__link_grey {
+    color: #AAA;
+    font-family: Gilroy Bold;
+    font-size: 15px;
+}
+
+.logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
